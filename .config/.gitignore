@@ -2,7 +2,6 @@
 !.gitignore
 
 !alacritty
-!Code
 !conky
 !dunst
 !emacs
