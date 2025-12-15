@@ -19,7 +19,7 @@ from libqtile.lazy import lazy
 # --- Essential Global Variables ---
 mod = "mod4"        # Super key (Windows/Cmd key) for all main shortcuts
 terminal = "alacritty"
-browser = "brave"
+browser = "qutebrowser"
 emacs = "emacsclient -c -a 'emacs' "
 launcher = "dmenu_run -c -bw 2 -l 20 -g 4 -p 'RUN:'"
 font = "Mononoki Nerd Font"
@@ -27,6 +27,7 @@ temperature = "redshift -O 2400"
 no_temperature = "redshift -x"
 screenshot = "scrot 'screenshot_%Y-%m-%d-%T_$wx$h.png' -e 'mkdir -p ~/.screenshots/ | mv $f ~/.screenshots/'"
 screenshot_capture = "scrot -s 'screenshot_%Y-%m-%d-%T_$wx$h.png' -e 'mkdir -p ~/.screenshots/ | mv $f ~/.screenshots/'"
+bookmarkthis = "/home/jc/.local/bin/bookmarkthis"
 
 # ===================================================================
 # THEMES / COLORS
@@ -110,7 +111,8 @@ for i in range(len(group_names)):
 keys = [
     # --- Qtile & System Essentials ---
     Key([mod], "Return", lazy.spawn(terminal), desc="Launch Terminal"),
-    Key([mod, "shift"], "Return", lazy.spawn(launcher), desc='Run Launcher (dmenu)'),
+    Key([mod, "shift"], "Return", lazy.spawn(launcher), desc='Run Launcher'),
+    Key([mod, "shift"], "b", lazy.spawn(bookmarkthis), desc='Save bookmark'),
     Key([mod], "w", lazy.spawn(browser), desc='Launch Web browser'),
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle to next layout in group"),
     Key([mod, "shift"], "c", lazy.window.kill(), desc="Kill focused window"),

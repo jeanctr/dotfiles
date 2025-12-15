@@ -3,11 +3,13 @@
 
 !README
 !.emacs.d
+!.bookmarks
 !.config
 !.Xresouces
 !.bashrc
 !.zshrc
 !.fehbg
 !.vimrc
+!.vim
 !.screenshots
 !.local
