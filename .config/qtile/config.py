@@ -1,9 +1,6 @@
 # Qtile Config
-# Author: jeancarlos.dev
-# Github: https://github.com/jeancarlos-ing
-#
-# A clean, efficient, and well-commented configuration file for the Qtile Window Manager.
-# Optimized and commented by Gemini (A Google AI).
+# Author: <https://jeancarlos.dev>
+# Github: https://github.com/jeanctr
 
 # ===================================================================
 # IMPORTS & GLOBAL VARIABLES
@@ -36,7 +33,7 @@ bookmarkthis = "/home/jc/.local/bin/bookmarkthis"
 # Define color palettes (e.g., DoomOne, Dracula).
 # Index 8 (color07) is typically used for the active/focus border.
 
-DoomOne = [
+colors = [
     ["#282c34", "#282c34"], # [0] Background
     ["#bbc2cf", "#bbc2cf"], # [1] Foreground (Text)
     ["#1c1f24", "#1c1f24"], # [2] Black/Inactive
@@ -48,9 +45,6 @@ DoomOne = [
     ["#46d9ff", "#46d9ff"], # [8] Cyan (Primary Accent/Focus Border)
     ["#7d7d7d", "#7d7d7d"]  # [9] Gray (Secondary Inactive)
     ]
-
-# --- Selected Theme ---
-colors = DoomOne
 
 # ===================================================================
 # CUSTOM LAZY FUNCTIONS
