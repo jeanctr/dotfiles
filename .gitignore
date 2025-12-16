@@ -1,8 +1,7 @@
 /*
 !.gitignore
 
-!README
-!.emacs.d
+!README.md
 !.bookmarks
 !.config
 !.Xresouces
