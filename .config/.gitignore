@@ -5,7 +5,7 @@
 !conky
 !dunst
 !pcmanfm
-!nvim
+nvim
 !picom
 !qtile
 !starship.toml
