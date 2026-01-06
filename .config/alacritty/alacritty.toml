@@ -20,7 +20,7 @@ white   = '#bbc2cf'
 TERM = "xterm-256color"
 
 [font]
-size = 10.0
+size = 10.5
 
 [font.bold]
 family = "Mononoki Nerd FOnt"

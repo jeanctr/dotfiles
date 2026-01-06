@@ -4,11 +4,11 @@
 !alacritty
 !conky
 !dunst
-!pcmanfm
-nvim
+!nvim
 !picom
 !qtile
 !starship.toml
 !htop
 !vifm
 !bat
+!zed
