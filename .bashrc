@@ -63,7 +63,7 @@ alias cat="bat"
 alias vifm="$XDG_CONFIG_HOME/vifm/scripts/vifmrun"
 
 # Changing "ls" to "lsd"
-alias ls="lsd -la"
+alias l="lsd -la"
 alias lt="lsd --tree"
 
 # ps
