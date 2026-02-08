@@ -14,4 +14,4 @@ dunst -conf "$HOME"/.config/dunst/colorscheme &
 sleep 1
 
 # Wallpapers
-feh --recursive --bg-fill --randomize ~/.wallpapers
+feh --recursive --bg-scale --randomize ~/.wallpapers

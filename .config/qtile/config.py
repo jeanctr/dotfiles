@@ -197,7 +197,7 @@ for i in groups:
 # Default settings for all layouts
 layout_theme = {
     "border_width": 2,
-    "margin": 12, # A good margin makes the desktop look cleaner
+    "margin": 10, # A good margin makes the desktop look cleaner
     "border_focus": colors[8],
     "border_normal": colors[0]
 }
@@ -222,7 +222,7 @@ layouts = [
 widget_defaults = dict(
     font=font,
     fontsize = 12,
-    padding = 3, # Increased padding for better separation
+    padding = 1, # Increased padding for better separation
     background=colors[0] 
 )
 
@@ -241,8 +241,8 @@ def init_widgets_list():
             margin_y = 5,
             margin_x = 10,
             padding_y = 0,
-            padding_x = 2,
-            borderwidth = 3,
+            padding_x = 1,
+            borderwidth = 2,
             active = colors[8],
             inactive = colors[9], 
             rounded = False,
