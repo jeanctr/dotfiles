@@ -3,11 +3,11 @@
 Personal dotfiles for Linux and WSL.
 
 * Vim
-![vim](vim.png)
+![vim](.screenshots/vim.png)
 * Neovim
-![nvim](nvim.png)
+![nvim](.screenshots/nvim.png)
 * Emacs
-![emacs](emacs.png)
+![emacs](.screenshots/emacs.png)
 * Bash
 
 ```sh
